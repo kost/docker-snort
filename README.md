@@ -4,7 +4,12 @@ A Docker container for Snort (10.18 MB).
 
 Image is based on the [gliderlabs/alpine](https://registry.hub.docker.com/u/gliderlabs/alpine/) base image
 
-## Docker usage
+## Docker image size
+
+[![Latest](https://badge.imagelayers.io/k0st/snort.svg)](https://imagelayers.io/?images=k0st/snort:latest 'latest')
+
+
+## Docker image usage
 
 ```
 docker run k0st/snort [Snort options]
