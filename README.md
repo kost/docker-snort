@@ -15,7 +15,7 @@ docker run k0st/snort [Snort options]
 Process pcap file called sniff.pcap using snort:
 
 ```
-docker run k0st/snort -r sniff.pcap
+docker run -v /path/to/pcap/dir:/work:rw k0st/snort -r sniff.pcap
 ```
 
 Display snort version and do not keep container:
